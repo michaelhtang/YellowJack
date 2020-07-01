@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DF89DDF24AC4D6300130EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89DDE24AC4D6300130EDB /* AppDelegate.swift */; };
+		6DF89DE124AC4D6300130EDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89DE024AC4D6300130EDB /* SceneDelegate.swift */; };
+		6DF89DE324AC4D6300130EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89DE224AC4D6300130EDB /* ViewController.swift */; };
+		6DF89DE624AC4D6300130EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89DE424AC4D6300130EDB /* Main.storyboard */; };
+		6DF89DE824AC4D6300130EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89DE724AC4D6300130EDB /* Assets.xcassets */; };
+		6DF89DEB24AC4D6300130EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89DE924AC4D6300130EDB /* LaunchScreen.storyboard */; };
+		6DF89DF624AC4D6300130EDB /* YellowJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89DF524AC4D6300130EDB /* YellowJackTests.swift */; };
+		6DF89E0124AC4D6300130EDB /* YellowJackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89E0024AC4D6300130EDB /* YellowJackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DF89DF224AC4D6300130EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF89DD324AC4D6200130EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF89DDA24AC4D6300130EDB;
+			remoteInfo = YellowJack;
+		};
+		6DF89DFD24AC4D6300130EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF89DD324AC4D6200130EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF89DDA24AC4D6300130EDB;
+			remoteInfo = YellowJack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DF89DDB24AC4D6300130EDB /* YellowJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF89DDE24AC4D6300130EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DF89DE024AC4D6300130EDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DF89DE224AC4D6300130EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DF89DE524AC4D6300130EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DF89DE724AC4D6300130EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DF89DEA24AC4D6300130EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DF89DEC24AC4D6300130EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF89DF124AC4D6300130EDB /* YellowJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF89DF524AC4D6300130EDB /* YellowJackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowJackTests.swift; sourceTree = "<group>"; };
+		6DF89DF724AC4D6300130EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF89DFC24AC4D6300130EDB /* YellowJackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowJackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF89E0024AC4D6300130EDB /* YellowJackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowJackUITests.swift; sourceTree = "<group>"; };
+		6DF89E0224AC4D6300130EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF89DD824AC4D6300130EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89DEE24AC4D6300130EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89DF924AC4D6300130EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DF89DD224AC4D6200130EDB = {
+			isa = PBXGroup;
+			children = (
+				6DF89DDD24AC4D6300130EDB /* YellowJack */,
+				6DF89DF424AC4D6300130EDB /* YellowJackTests */,
+				6DF89DFF24AC4D6300130EDB /* YellowJackUITests */,
+				6DF89DDC24AC4D6300130EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF89DDC24AC4D6300130EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DF89DDB24AC4D6300130EDB /* YellowJack.app */,
+				6DF89DF124AC4D6300130EDB /* YellowJackTests.xctest */,
+				6DF89DFC24AC4D6300130EDB /* YellowJackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DF89DDD24AC4D6300130EDB /* YellowJack */ = {
+			isa = PBXGroup;
+			children = (
+				6DF89DDE24AC4D6300130EDB /* AppDelegate.swift */,
+				6DF89DE024AC4D6300130EDB /* SceneDelegate.swift */,
+				6DF89DE224AC4D6300130EDB /* ViewController.swift */,
+				6DF89DE424AC4D6300130EDB /* Main.storyboard */,
+				6DF89DE724AC4D6300130EDB /* Assets.xcassets */,
+				6DF89DE924AC4D6300130EDB /* LaunchScreen.storyboard */,
+				6DF89DEC24AC4D6300130EDB /* Info.plist */,
+			);
+			path = YellowJack;
+			sourceTree = "<group>";
+		};
+		6DF89DF424AC4D6300130EDB /* YellowJackTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF89DF524AC4D6300130EDB /* YellowJackTests.swift */,
+				6DF89DF724AC4D6300130EDB /* Info.plist */,
+			);
+			path = YellowJackTests;
+			sourceTree = "<group>";
+		};
+		6DF89DFF24AC4D6300130EDB /* YellowJackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF89E0024AC4D6300130EDB /* YellowJackUITests.swift */,
+				6DF89E0224AC4D6300130EDB /* Info.plist */,
+			);
+			path = YellowJackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DF89DDA24AC4D6300130EDB /* YellowJack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF89E0524AC4D6300130EDB /* Build configuration list for PBXNativeTarget "YellowJack" */;
+			buildPhases = (
+				6DF89DD724AC4D6300130EDB /* Sources */,
+				6DF89DD824AC4D6300130EDB /* Frameworks */,
+				6DF89DD924AC4D6300130EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YellowJack;
+			productName = YellowJack;
+			productReference = 6DF89DDB24AC4D6300130EDB /* YellowJack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DF89DF024AC4D6300130EDB /* YellowJackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF89E0824AC4D6300130EDB /* Build configuration list for PBXNativeTarget "YellowJackTests" */;
+			buildPhases = (
+				6DF89DED24AC4D6300130EDB /* Sources */,
+				6DF89DEE24AC4D6300130EDB /* Frameworks */,
+				6DF89DEF24AC4D6300130EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF89DF324AC4D6300130EDB /* PBXTargetDependency */,
+			);
+			name = YellowJackTests;
+			productName = YellowJackTests;
+			productReference = 6DF89DF124AC4D6300130EDB /* YellowJackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DF89DFB24AC4D6300130EDB /* YellowJackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF89E0B24AC4D6300130EDB /* Build configuration list for PBXNativeTarget "YellowJackUITests" */;
+			buildPhases = (
+				6DF89DF824AC4D6300130EDB /* Sources */,
+				6DF89DF924AC4D6300130EDB /* Frameworks */,
+				6DF89DFA24AC4D6300130EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF89DFE24AC4D6300130EDB /* PBXTargetDependency */,
+			);
+			name = YellowJackUITests;
+			productName = YellowJackUITests;
+			productReference = 6DF89DFC24AC4D6300130EDB /* YellowJackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DF89DD324AC4D6200130EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Michael Tang";
+				TargetAttributes = {
+					6DF89DDA24AC4D6300130EDB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6DF89DF024AC4D6300130EDB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6DF89DDA24AC4D6300130EDB;
+					};
+					6DF89DFB24AC4D6300130EDB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6DF89DDA24AC4D6300130EDB;
+					};
+				};
+			};
+			buildConfigurationList = 6DF89DD624AC4D6200130EDB /* Build configuration list for PBXProject "YellowJack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DF89DD224AC4D6200130EDB;
+			productRefGroup = 6DF89DDC24AC4D6300130EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DF89DDA24AC4D6300130EDB /* YellowJack */,
+				6DF89DF024AC4D6300130EDB /* YellowJackTests */,
+				6DF89DFB24AC4D6300130EDB /* YellowJackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DF89DD924AC4D6300130EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89DEB24AC4D6300130EDB /* LaunchScreen.storyboard in Resources */,
+				6DF89DE824AC4D6300130EDB /* Assets.xcassets in Resources */,
+				6DF89DE624AC4D6300130EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89DEF24AC4D6300130EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89DFA24AC4D6300130EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DF89DD724AC4D6300130EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89DE324AC4D6300130EDB /* ViewController.swift in Sources */,
+				6DF89DDF24AC4D6300130EDB /* AppDelegate.swift in Sources */,
+				6DF89DE124AC4D6300130EDB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89DED24AC4D6300130EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89DF624AC4D6300130EDB /* YellowJackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89DF824AC4D6300130EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89E0124AC4D6300130EDB /* YellowJackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DF89DF324AC4D6300130EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF89DDA24AC4D6300130EDB /* YellowJack */;
+			targetProxy = 6DF89DF224AC4D6300130EDB /* PBXContainerItemProxy */;
+		};
+		6DF89DFE24AC4D6300130EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF89DDA24AC4D6300130EDB /* YellowJack */;
+			targetProxy = 6DF89DFD24AC4D6300130EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DF89DE424AC4D6300130EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF89DE524AC4D6300130EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DF89DE924AC4D6300130EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF89DEA24AC4D6300130EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DF89E0324AC4D6300130EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DF89E0424AC4D6300130EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DF89E0624AC4D6300130EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZTD869J8E;
+				INFOPLIST_FILE = YellowJack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhtang.yellowjack.YellowJack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DF89E0724AC4D6300130EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZTD869J8E;
+				INFOPLIST_FILE = YellowJack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhtang.yellowjack.YellowJack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DF89E0924AC4D6300130EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZTD869J8E;
+				INFOPLIST_FILE = YellowJackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhtang.yellowjack.YellowJackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowJack.app/YellowJack";
+			};
+			name = Debug;
+		};
+		6DF89E0A24AC4D6300130EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZTD869J8E;
+				INFOPLIST_FILE = YellowJackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhtang.yellowjack.YellowJackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowJack.app/YellowJack";
+			};
+			name = Release;
+		};
+		6DF89E0C24AC4D6300130EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZTD869J8E;
+				INFOPLIST_FILE = YellowJackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhtang.yellowjack.YellowJackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YellowJack;
+			};
+			name = Debug;
+		};
+		6DF89E0D24AC4D6300130EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZTD869J8E;
+				INFOPLIST_FILE = YellowJackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhtang.yellowjack.YellowJackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YellowJack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DF89DD624AC4D6200130EDB /* Build configuration list for PBXProject "YellowJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF89E0324AC4D6300130EDB /* Debug */,
+				6DF89E0424AC4D6300130EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF89E0524AC4D6300130EDB /* Build configuration list for PBXNativeTarget "YellowJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF89E0624AC4D6300130EDB /* Debug */,
+				6DF89E0724AC4D6300130EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF89E0824AC4D6300130EDB /* Build configuration list for PBXNativeTarget "YellowJackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF89E0924AC4D6300130EDB /* Debug */,
+				6DF89E0A24AC4D6300130EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF89E0B24AC4D6300130EDB /* Build configuration list for PBXNativeTarget "YellowJackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF89E0C24AC4D6300130EDB /* Debug */,
+				6DF89E0D24AC4D6300130EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DF89DD324AC4D6200130EDB /* Project object */;
+}
