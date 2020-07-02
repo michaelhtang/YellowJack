@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="TpJ-nk-Akb">
-                                <rect key="frame" x="40.5" y="112" width="333" height="672"/>
+                                <rect key="frame" x="40.5" y="50" width="333" height="796"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axe-KL-bhh">
                                         <rect key="frame" x="141.5" y="0.0" width="50" height="242"/>
@@ -48,7 +48,18 @@
                                             <action selector="dealButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2BP-ki-U6n"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow5-RX-29J">
+                                        <rect key="frame" x="101" y="730" width="131" height="66"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <state key="normal" title="shuffle"/>
+                                        <connections>
+                                            <action selector="shufflePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fAR-iD-iu1"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ow5-RX-29J" firstAttribute="centerX" secondItem="TpJ-nk-Akb" secondAttribute="centerX" id="x0Q-PL-5Ve"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -67,6 +78,7 @@
                         <outlet property="card_two" destination="SeX-Dn-b7C" id="urm-D3-acY"/>
                         <outlet property="cardsValue" destination="axe-KL-bhh" id="2S4-jh-814"/>
                         <outlet property="dealButton" destination="hXP-0W-pKC" id="afP-yK-cDh"/>
+                        <outlet property="shuffleButton" destination="ow5-RX-29J" id="h3z-WO-445"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

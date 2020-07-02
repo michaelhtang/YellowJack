@@ -27,7 +27,7 @@ class DealerBrain {
     }
     
     func cardsInfo(playingCard: Card) -> (String, String, (Int, Int?)) {
-        let description = playingCard.rank.rankDescription()
+        let description = String(playingCard.rank.rawValue)
         let suit = playingCard.suit.rawValue
         let value = playingCard.rank.cardsValue()
         let card = (description,suit,value)
