@@ -19,16 +19,33 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="TpJ-nk-Akb">
-                                <rect key="frame" x="40.5" y="50" width="333" height="796"/>
+                                <rect key="frame" x="40.5" y="-4.5" width="333" height="905"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axe-KL-bhh">
-                                        <rect key="frame" x="141.5" y="0.0" width="50" height="242"/>
+                                        <rect key="frame" x="141.5" y="0.0" width="50" height="243"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="U41-dg-0WZ">
+                                        <rect key="frame" x="65.5" y="301" width="202" height="50"/>
+                                        <subviews>
+                                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minimumValue="2" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Npa-yr-7mn">
+                                                <rect key="frame" x="0.0" y="9" width="94" height="32"/>
+                                                <connections>
+                                                    <action selector="stepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="uVw-Zg-ms0"/>
+                                                </connections>
+                                            </stepper>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zea-fH-4eQ">
+                                                <rect key="frame" x="152" y="0.0" width="50" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l3a-Ld-VkR">
-                                        <rect key="frame" x="0.0" y="300" width="333" height="242"/>
+                                        <rect key="frame" x="0.0" y="409" width="333" height="242"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="Uig-vy-XP2">
                                                 <rect key="frame" x="0.0" y="0.0" width="166.5" height="242"/>
@@ -39,7 +56,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXP-0W-pKC">
-                                        <rect key="frame" x="118" y="600" width="97" height="72"/>
+                                        <rect key="frame" x="118" y="709" width="97" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="Deal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -49,7 +66,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow5-RX-29J">
-                                        <rect key="frame" x="101" y="730" width="131" height="66"/>
+                                        <rect key="frame" x="101" y="839" width="131" height="66"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <state key="normal" title="shuffle"/>
                                         <connections>
@@ -74,10 +91,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Stepper" destination="Npa-yr-7mn" id="Wfh-dw-EgM"/>
                         <outlet property="card_one" destination="Uig-vy-XP2" id="OnS-sE-jXg"/>
                         <outlet property="card_two" destination="SeX-Dn-b7C" id="urm-D3-acY"/>
                         <outlet property="cardsValue" destination="axe-KL-bhh" id="2S4-jh-814"/>
                         <outlet property="dealButton" destination="hXP-0W-pKC" id="afP-yK-cDh"/>
+                        <outlet property="numberOfDecksLabel" destination="Zea-fH-4eQ" id="uhg-kj-MHt"/>
                         <outlet property="shuffleButton" destination="ow5-RX-29J" id="h3z-WO-445"/>
                     </connections>
                 </viewController>

@@ -15,40 +15,41 @@
         @IBOutlet weak var dealButton: UIButton!
         @IBOutlet weak var cardsValue: UILabel!
         @IBOutlet weak var shuffleButton: UIButton!
+        @IBOutlet weak var stepper: UIStepper!
+        @IBOutlet weak var numberOfDecksLabel: UILabel!
+        
+        var numberOfDecks = Int()
         let dealer = DealerBrain()
-        let shoe = Shoe(2)
+        var shoe = Shoe(2)
         
         override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
             card_one.image = .none
             card_two.image = .none
+            numberOfDecksLabel.text = "\(Int(stepper.value)) decks"
             
             
-            print("\(shoe.decks.count) decks were created.")
-            shoe.numberOfCards(in: shoe)
-//            for deck in 1...shoe.decks.count {
-//
-//                print("Cards in deck \(deckIndex): \(shoe.decks[deckIndex-1].cards.count)")
-//                deckIndex += 1
-//            }
-            		
-            let firstCard = shoe.decks[0].cards[51]
-            print(shoe.cardsInfo(playingCard: firstCard))
-            print(shoe.decks[1].cards[51])
-            card_one.image = UIImage(named: "\(shoe.decks[0].cards[51].rank)_of_\(shoe.decks[0].cards[51].suit.rawValue)")
         }
         
+        
+        @IBAction func stepperChanged(_ sender: UIStepper) {
+            shoe.decks.removeAll()
+            numberOfDecks = Int(stepper.value)
+            numberOfDecksLabel.text = String(numberOfDecks) + " decks"
+            shoe = Shoe(numberOfDecks)
+            shoe.numberOfCardsTotal(in: shoe)
+            shoe.numberOfCardsPerDeck(in: shoe)
+        }
+        
+            
+        
+        
+        
         @IBAction func dealButtonPressed(_ sender: UIButton) {
-
-           
             
+            shoe.numberOfCardsTotal(in: shoe)
             
-            
-            //print(decks)
-//            print("Number of Cards in deck: \(decks.count)")
-//
-//
 //            let cardDrew = decks[decks.count-1]
 //                //        let infoOfSingleCard = dealer.cardsInfo(playingCard: singleCard)
 //                //        print(infoOfSingleCard)

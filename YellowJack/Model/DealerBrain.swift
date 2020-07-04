@@ -9,7 +9,14 @@
 import UIKit
 class DealerBrain {
     
+    init() {
+        
+    }
     
+    func dealCard(from shoe: Shoe) {
+        print("I have \(shoe.cards.count) cards here")
+        
+    }
 
 
 
